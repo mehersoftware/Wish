@@ -6,12 +6,12 @@
      ============================================================ */
 
   const PHOTOS = {
-    older: "older.jpeg",
-    instant: "instant.jpeg",
-    photo1: "photo1.jpeg",
-    photo2: "photo2.jpeg",
-    photo3: "photo3.jpeg",
-    final: "final.jpeg"
+    older: "images/older.jpeg",
+    instant: "images/instant.jpeg",
+    photo1: "images/photo1.jpeg",
+    photo2: "images/photo2.jpeg",
+    photo3: "images/photo3.jpeg",
+    final: "images/final.jpeg"
   };
 
 
@@ -214,7 +214,7 @@ const TARGET = new Date(Date.now() + 20000);
       catch {
 
         showToast(
-          "Add waiting-music.mp3 first ♡"
+          "Add audio/waiting-music.mp3 first ♡"
         );
 
       }
